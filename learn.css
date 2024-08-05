@@ -1,0 +1,104 @@
+/* *{ */
+    /* margin-left: 200px; */
+    
+/* } */
+body {
+  background-color: yellowgreen; 
+}
+
+p{
+    font-size:16px;
+}
+
+/* ////////////////////////header/////////////////// */
+
+  .header{
+    background: url('java3.jpeg');
+    /* width: 1355px;;
+    height:400px; */
+    min-height: 50vh;
+    position: relative;
+    /* background-attachment: fixed; */
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header-text{
+    color: black;
+    /* text-align: center; */
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+ 
+  /* translate: (-50%,-50%); */
+  }
+  
+    .class1{
+    font-size: 13px;
+    text-align: center;
+    margin-top:40px;
+    
+   } 
+   .h2-in-section{
+    font-size: 32px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+   } 
+/* /////////////////////////////////Implementing my first Javascript/////////////////////////////// */
+.game1{
+  background-color:rgb(219, 219, 60);
+  height: 100px;
+  width:450px;
+  color:black;
+  margin: auto;
+  font-size: 13px;
+    text-align: center;
+    margin-top:40px;
+}
+.game1>div{
+  margin-top:60px;
+  justify-content: center;
+}
+/* ////////////////////////////images ////////////////////////////////// */
+.game2{
+  background-color: rgb(219, 219, 60);
+  height: 200px;
+  width:450px;
+  color:black;
+  margin: auto;
+  font-size: 13px;
+    text-align: center;
+    margin-top:40px;
+}
+.game2>div{
+  margin-top:60px;
+  justify-content: center;
+}
+.game3{
+  background-color:rgb(219, 219, 60);
+  height: 150px;
+  width:450px;
+  color:black;
+  margin: auto;
+  font-size: 13px;
+    text-align: center;
+    margin-top:40px;
+    
+
+}
+/* //////////////////try for img size////////////////// */
+/* .img-inside-game2{
+  width:auto;
+  height:150px;
+  margin-top:40px;
+} */
+
+footer{
+  margin-top: 30px;
+  background-color: wheat;
+  font-size: medium;
+  justify-content: center;
+  text-align: center;
+}
